@@ -6,9 +6,9 @@ class Program
     static void Main(string[] args)
     {
         // Укажите путь к вашему Python интерпретатору
-        string pythonInterpreter = @"C:/Users/mehak/AppData/Local/Programs/Python/Python312/python.exe"; // Поменяйте на реальный путь к вашему Python интерпретатору
+        string pythonInterpreter = @"C:/Users/mehak/AppData/Local/Programs/Python/Python312/python.exe"; 
         // Укажите путь к вашему Python скрипту
-        string scriptPath = @"c:/Users/mehak/Downloads/Datchik-3.4/Datchik-3.4/templates/prob solvp.py"; // Поменяйте на реальный путь к вашему Python файлу
+        string scriptPath = @"c:/Users/mehak/Downloads/Datchik-3.4/Datchik-3.4/templates/prob solvp.py"; 
 
         // Создаем новый процесс
         ProcessStartInfo start = new ProcessStartInfo();
